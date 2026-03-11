@@ -472,3 +472,81 @@
   height: 2.2rem;
   flex-shrink: 0;
 }
+
+/* ======================================== */
+/* Our Approach Section */
+/* ========================================= */
+
+.approach__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 6.4rem;
+}
+
+.approach__images {
+  position: relative;
+  height: 56rem;
+  flex-shrink: 0;
+}
+
+.img-tall {
+  position: absolute;
+  left: 0;
+  bottom: 4rem;
+  width: 48%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 1.6rem;
+}
+
+.img-laptop {
+  position: absolute;
+  right: 0;
+  bottom: 0rem;
+  width: 48%;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 1.6rem;
+}
+
+.approach__title {
+  color: var(--color-text-1);
+  margin-bottom: 3.2rem;
+  letter-spacing: -1px;
+}
+
+.approach__accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion__item {
+  padding: 1.6rem 0 1.6rem 2rem;
+  border-left: 3px solid #2d2d2d;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.accordion__item--active {
+  border-left: 3px solid var(--color-primary);
+}
+
+.accordion__heading {
+  color: var(--color-text-1);
+}
+
+.accordion__text {
+  font-size: 1.6rem;
+  color: var(--color-text-1);
+  line-height: 1.6;
+  margin-top: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.accordion__divider {
+  height: 1px;
+  background-color: #2d2d2d;
+  margin: 0.4rem 0;
+}

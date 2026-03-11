@@ -163,7 +163,8 @@
 
 @media (max-width: 48em) {
   .reality,
-  .help {
+  .help,
+  .scheduling {
     padding: 8rem 0;
   }
   
@@ -261,6 +262,16 @@
   
   .help {
     padding: 6rem 1.6rem;
+  }
+  
+  .scheduling {
+    padding: 6rem 1.6rem;
+  }
+
+  .scheduling__footer {
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: center;
   }
 
   .services__header {

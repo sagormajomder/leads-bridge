@@ -1,6 +1,6 @@
 # LeadsBridge (FINTRIXX)
 
-LeadsBridge (operating as FINTRIXX) is a modern, responsive landing page for an Amazon Growth Partner agency. The agency helps Amazon sellers increase sales, optimize ads, rank higher, manage inventory, and expand into new markets.
+LeadsBridge is a modern, responsive landing page for an Amazon Growth Partner agency. The agency helps Amazon sellers increase sales, optimize ads, rank higher, manage inventory, and expand into new markets.
 
 ## Table of Contents
 

@@ -27,6 +27,10 @@
   .heading-3 {
     font-size: 3.6rem;
   }
+  
+  .why-choose {
+    gap: 2.4rem;
+  }
 }
 /* 768px */
 @media (max-width: 48em) {
@@ -62,6 +66,22 @@
   .heading-3 {
     font-size: 3rem;
   }
+  
+  .section-dark {
+    padding: 8rem 0;
+  }
+
+  .why-choose {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+    text-align: center;
+  }
+
+  .why-choose__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* 600px */
@@ -87,5 +107,9 @@
 
   .story__description {
     font-size: 1.4rem;
+  }
+  
+  .section-dark {
+    padding: 6rem 1.6rem;
   }
 }

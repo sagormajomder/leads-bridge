@@ -74,6 +74,11 @@ select {
   font-weight: 500;
 }
 
+.heading-2 {
+  font-weight: 600;
+  font-size: 5.6rem;
+}
+
 .heading-3 {
   font-size: 4rem;
   font-weight: 600;
@@ -112,4 +117,7 @@ select {
 }
 .btn--primary:hover {
   background-color: #e59400;
+}
+.btn--white {
+  box-shadow: 3px 3px 0px 0px var(--color-stroke-2);
 }

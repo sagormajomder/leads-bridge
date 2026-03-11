@@ -1,0 +1,57 @@
+:root {
+  --color-primary: #ffa500;
+
+  --color-bg-1: #ffffff;
+  --color-bg-2: #151515;
+
+  --color-text-1: #ffffff;
+  --color-text-2: #151515;
+  --color-text-3: #4f4d4d;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  color: var(--color-text-3);
+  font-weight: 400;
+  line-height: 1;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.container {
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}

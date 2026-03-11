@@ -116,7 +116,7 @@
 }
 
 /* Chart inside left card */
-.card__title {
+.floating-card__title {
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-text-2);
@@ -275,6 +275,7 @@
 
 /* ========================================= */
 /* Our Story Section */
+/* ========================================= */
 .story {
   padding: 4rem 1.6rem 10rem;
   text-align: center;
@@ -292,6 +293,9 @@
   border-radius: 4rem;
   color: var(--color-text-2);
   margin-bottom: 1.6rem;
+}
+.story__badge-transparent {
+  background-color: transparent;
 }
 
 .story__badge-text {
@@ -549,6 +553,132 @@
   height: 1px;
   background-color: #2d2d2d;
   margin: 0.4rem 0;
+}
+
+/* ======================================== */
+/* Grid Sections (Reality & Help) */
+/* ========================================= */
+
+.reality {
+  padding: 10rem 0;
+  background-color: #fff;
+}
+
+.help {
+  padding: 10rem 0;
+}
+
+.grid__header {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.align-center {
+  margin: 0 auto 1.6rem auto;
+}
+
+.grid__heading {
+  margin-bottom: 1.6rem;
+  letter-spacing: -1px;
+  color: var(--color-text-2);
+}
+
+.grid__description {
+  font-size: 1.8rem;
+  color: var(--color-text-2);
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  margin-bottom: 6.4rem;
+}
+
+.card {
+  border-radius: 1.2rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card__title {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+}
+
+.card__line {
+  height: 3.2rem;
+  width: 2px;
+  background-color: rgba(255, 170, 0, 0.3);
+}
+
+.card__text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Light Theme Cards */
+.card--light {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 1.6rem rgba(0, 0, 0, 0.02);
+}
+
+.card--light:hover {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+}
+
+.card--light .card__text {
+  color: var(--color-text-3);
+}
+
+/* Dark Theme Cards */
+.card--dark {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card--dark .card__text {
+  color: var(--color-text-1);
+  opacity: 0.9;
+}
+
+.card--dark:hover {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
+}
+
+.card--dark .card__line {
+  background-color: rgba(255, 170, 0, 0.4);
+}
+
+.card--dark .card__text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.grid__footer {
+  text-align: center;
+}
+
+.btn--shadow {
+  box-shadow: 0 4px 12px rgba(255, 170, 0, 0.4);
+}
+
+.border-white {
+  border: 2px solid #fff;
 }
 
 /* ======================================== */

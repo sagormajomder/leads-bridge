@@ -14,6 +14,100 @@
     <link rel="stylesheet" href="./src/css/general.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <script defer src="./src/index.js"></script>
   </head>
-  <body></body>
+  <body>
+    <!-- Background Wrapper for Gradient -->
+    <header class="main-wrapper">
+      <!-- Navigation Menu -->
+      <nav class="container header__navbar">
+        <a href="/" class="logo-link">
+          <img
+            src="./src/assets/logo.png"
+            alt="Website Logo"
+            class="logo-img" />
+        </a>
+
+        <!-- Nav Links -->
+        <div class="header__nav-right">
+          <ul class="header__nav-list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#consultation" class="btn btn--primary"
+            >Book a Free Consultation</a
+          >
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero container">
+        <div class="hero__badge">
+          <img
+            src="./src/assets/amazon-logo.png"
+            alt="Amazon Logo"
+            class="amazon-logo" />
+          <span class="hero__badge-text"
+            >Your Full-Service
+            <span class="text-primary">Amazon Partner</span></span
+          >
+        </div>
+
+        <h1 class="hero__heading">
+          Turn Your Amazon Struggles<br />
+          into Success—Save Time,<br />
+          <span class="text-primary">Maximize Profits!</span>
+        </h1>
+
+        <a href="#consultation" class="btn btn--primary"
+          >Book a Free Consultation</a
+        >
+
+        <!-- Floating Cards -->
+        <div class="floating-card floating-card--left">
+          <h4 class="card__title">Total Incomes</h4>
+          <div class="card__chart">
+            <div class="bar bar-1"></div>
+            <div class="bar bar-2"></div>
+            <div class="bar bar-3"></div>
+            <div class="bar bar-4 active"></div>
+            <div class="bar bar-5"></div>
+            <div class="bar bar-6"></div>
+          </div>
+          <div class="card__labels">
+            <span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span
+            ><span>May</span><span>Jun</span>
+          </div>
+        </div>
+
+        <div class="floating-card floating-card--right">
+          <div class="card__users-content">
+            <div class="avatars">
+              <img
+                src="./src/assets/users/male-1.png"
+                alt="User"
+                class="avatar avatar-1" />
+              <img
+                src="./src/assets/users/male-2.png"
+                alt="User"
+                class="avatar avatar-2" />
+              <img
+                src="./src/assets/users/male-3.png"
+                alt="User"
+                class="avatar avatar-3" />
+            </div>
+            <div class="stats">
+              <h4 class="stats-num">45k+ Users</h4>
+              <p class="stats-rating">
+                <img src="./src/assets/star.png" alt="Star" class="star" /> 4.7
+                Rating
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>

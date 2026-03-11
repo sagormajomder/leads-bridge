@@ -1,0 +1,48 @@
+/* Responsive Styles */
+/* 1280px */
+@media (max-width: 80em) {
+  .hero__heading {
+    font-size: 5.6rem;
+  }
+
+  .floating-card--left {
+    left: 2%;
+  }
+
+  .floating-card--right {
+    right: 1%;
+  }
+}
+
+/* 1024px */
+@media (max-width: 64em) {
+  .floating-card {
+    display: none;
+  }
+}
+/* 768px */
+@media (max-width: 48em) {
+  .header__navbar {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .header__nav-right {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .hero {
+    padding: 6rem 0 8rem;
+  }
+
+  .hero__heading {
+    font-size: 4.8rem;
+  }
+}
+/* 480px */
+@media (max-width: 30em) {
+  .hero__heading {
+    font-size: 3.6rem;
+  }
+}

@@ -7,6 +7,9 @@
   --color-text-1: #ffffff;
   --color-text-2: #151515;
   --color-text-3: #4f4d4d;
+  --color-text-4: #666666;
+
+  --color-stroke-2: #ececec;
 }
 *,
 *::before,
@@ -29,16 +32,16 @@ body {
   line-height: 1;
   overflow-x: hidden;
   min-height: 100vh;
-}
-.container {
-  max-width: 128rem;
-  margin: 0 auto;
-  padding: 0 1.6rem;
+  letter-spacing: -2%;
 }
 
 a {
   text-decoration: none;
   display: inline-block;
+}
+
+ul {
+  list-style: none;
 }
 
 img,
@@ -54,4 +57,48 @@ textarea,
 button,
 select {
   font: inherit;
+}
+
+/* ////////////////////////////////////////////// */
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+.text-medium {
+  font-weight: 500;
+}
+
+/* ////////////////////////////////////////////// */
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3.9rem;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 0px 0px #000;
+  color: var(--color-text-1);
+  text-transform: capitalize;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+.btn--primary:hover {
+  background-color: #e59400;
 }

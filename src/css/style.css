@@ -362,3 +362,113 @@
   height: auto;
   object-fit: contain;
 }
+
+/* ======================================== */
+/* Services Section */
+/* ========================================= */
+
+.services {
+  padding: 12rem 1.6rem;
+}
+
+.services__header {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__heading {
+  color: var(--color-text-2);
+  margin-bottom: 1.6rem;
+  letter-spacing: -1px;
+}
+
+.services__description {
+  font-size: 1.8rem;
+  color: var(--color-text-2);
+  opacity: 0.8;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid var(--color-stroke-2);
+  border-radius: 1.6rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  box-shadow: 0 4px 1.6rem rgba(0, 0, 0, 0.02);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+}
+
+.service-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+}
+
+/* Vertical line decoration */
+.service-card__top::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4.8rem;
+  width: 2px;
+  height: 4rem;
+  background-color: var(--color-primary);
+  opacity: 0.3;
+}
+
+.service-card__title {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  max-width: 70%;
+  line-height: 1.4;
+}
+
+.service-icon {
+  width: 5.6rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.border-icon {
+  border: 1px solid var(--color-stroke-2);
+}
+
+.service-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.service-card__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--color-text-3);
+  line-height: 1.5;
+}
+
+.check-icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  flex-shrink: 0;
+}

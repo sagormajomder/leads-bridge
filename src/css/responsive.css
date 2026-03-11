@@ -28,6 +28,14 @@
     font-size: 3.6rem;
   }
   
+  .heading-2 {
+    font-size: 4.8rem;
+  }
+
+  .service-icon {
+    width: 4.8rem;
+  }
+  
   .why-choose {
     gap: 2.4rem;
   }
@@ -63,8 +71,24 @@
     width: 80%;
   }
 
+  .services {
+    padding: 8rem 1.6rem;
+  }
+  
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+
   .heading-3 {
     font-size: 3rem;
+  }
+  
+  .heading-2 {
+    font-size: 4rem;
+  }
+
+  .service-icon {
+    width: 4rem;
   }
   
   .section-dark {
@@ -104,6 +128,14 @@
   .heading-3 {
     font-size: 2.4rem;
   }
+  
+  .heading-2 {
+    font-size: 3.2rem;
+  }
+
+  .service-icon {
+    width: 3.2rem;
+  }
 
   .story__description {
     font-size: 1.4rem;
@@ -111,5 +143,17 @@
   
   .section-dark {
     padding: 6rem 1.6rem;
+  }
+
+  .services {
+    padding: 6rem 1.6rem;
+  }
+  
+  .services__header {
+    margin-bottom: 4rem;
+  }
+  
+  .service-card {
+    padding: 2.4rem;
   }
 }

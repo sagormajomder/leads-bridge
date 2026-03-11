@@ -550,3 +550,107 @@
   background-color: #2d2d2d;
   margin: 0.4rem 0;
 }
+
+/* ======================================== */
+/* Footer Section */
+/* ========================================= */
+
+.site-footer {
+  background: linear-gradient(90deg, #0e1014 0%, #111318 100%);
+  color: #c5c9d3;
+}
+
+.footer__top {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr 1.2fr;
+  gap: 7.2rem;
+  padding-top: 8rem;
+  padding-bottom: 5.6rem;
+}
+
+.footer__brand {
+  max-width: 48rem;
+}
+
+.footer__logo-link {
+  margin-bottom: 2.4rem;
+}
+
+.footer__logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: cover;
+}
+
+.footer__brand-text {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #d7dbe6;
+}
+
+.footer__heading {
+  color: #ffffff;
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer__links a,
+.footer__legal a,
+.footer__mail {
+  color: #d4d8e0;
+  font-size: 1.6rem;
+  transition: color 0.25s ease;
+}
+
+.footer__links a:hover,
+.footer__legal a:hover,
+.footer__mail:hover {
+  color: var(--color-primary);
+}
+
+.footer__mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__mail-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  display: inline-flex;
+  color: #d4d8e0;
+  flex-shrink: 0;
+}
+
+.footer__mail-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__bottom {
+  border-top: 1px solid #222734;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+
+.footer__copyright {
+  font-size: 1.5rem;
+  color: #c7ccd7;
+}
+
+.footer__legal {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
